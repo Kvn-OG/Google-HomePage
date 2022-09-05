@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: end;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    padding: 6px;
+}
+
+.linkCabecalho {
+    display: flex;
+    align-items: center;
+}
+
+.linkLista {
+    display: flex;
+    column-gap: 15px;
+    list-style: none;
+}
+
+.lista1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.lista2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.lista1 a:hover {
+    text-decoration: underline;
+}
+
+.lista2 a:hover {
+    text-decoration: underline;
+}
+
+.menuAPP {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 18px;
+    fill: currentColor;
+}
+
+.menuAPP:hover {
+    background-color: rgba(60,64,67,.08);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menuAPP svg {
+    margin: auto;
+    width: 24px;
+    height: 24px;
+    color: #5f6368;
+}
+
+.menuAVATAR {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-left: 12px;
+}
+
+.imgAVATAR {
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    border-radius: 50%;
+} 
+
+.menuAVATAR:hover {
+    background-color: rgba(60,64,67,.08);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#principal {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 220px;
+}
+
+.logoGoogle {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.barraPesquisa {
+    display: flex;
+    width: 584px;
+    height: 44px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barraPesquisa:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.iconePesquisa {
+    width: 33px;
+    height: 44px;
+    margin: auto;
+
+    display: flex;
+    padding: 0px 8px;
+    align-items: center;
+}
+
+.iconePesquisa svg {
+    width: 20px;
+    height: 20px;
+    padding-left: 8px;
+    fill: #9aa0a6;
+}
+
+.iconeMic {
+    display: flex;
+    width: 40px;
+    height: 44px;
+    margin: auto;
+    padding: 0px 8px;
+    align-items: center;
+}
+
+.iconeMic svg {
+    width: 24px;
+    height: 24px;
+    
+}
+
+.pesquisaInput {
+    display: flex;
+    flex: 100%;
+
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    font-size: 16px;
+    height: 34px;
+    width: 288px;
+}
+
+.btnPesquisa {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 18px;
+}
+
+.btn1 {
+    background-color: #f8f9fa;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3c4043;
+}
+
+.btn2 {
+    background-color: #f8f9fa;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3c4043;
+}
+
+.btn1:hover {
+    border: 1px solid #dadce0;
+    color: #202124;
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.btn2:hover {
+    border: 1px solid #dadce0;
+    color: #202124;
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.langGoogle p {
+    color: #5f6368;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.langGoogle p a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.langGoogle a:hover {
+    text-decoration: underline;
+}
+
+
+#rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.linkRodape {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.listaLink1 {
+    display: flex;
+    list-style: none;
+    
+}
+
+.listaLink2 {
+    display: flex;
+    list-style: none;
+}
+
+.listaLink1 a {
+    display: flex;
+    text-decoration: none;
+    color: #70757a;
+    padding: 15px;
+}
+
+.listaLink2 a {
+    display: flex;
+    text-decoration: none;
+    color: #70757a;
+    padding: 15px;
+}
+
+.listaLink1 a:hover {
+    text-decoration: underline;
+}
+
+.listaLink2 a:hover {
+    text-decoration: underline;
+}
+
+#rodape span {
+    padding: 15px 30px;
+    color: #70757a;
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+}
